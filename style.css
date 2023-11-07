@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(187, 186, 186);
+    margin-top: 1rem;
+    font-size: .85rem;
+}
+hr{
+    height: .55rem;
+    background-color:  rgba(27, 30, 32, 0.984);
+    border: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tint{
+    background-color:rgba(6, 17, 22, 0.611);
+    height: 43.5rem;
+    width: 100%;
+}
+.front{
+    
+    background-image: url('bgimg.png');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 43.5rem;
+    width: 100%;
+}
+.leftnav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background-image: url('Netflix-Logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4.5rem;
+    width: 9rem;
+    margin-right: 30rem;
+
+}
+.bt button{
+    background-color: red;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    border-color: red;
+}
+select{
+    width: 7rem;
+    height: 2rem;
+    background-color: rgba(27, 30, 32, 0.984);
+    margin-right: 1.5rem;
+    border-radius: 5px;
+    border-color: rgba(27, 30, 32, 0.984);
+    text-align: center;
+}
+.textcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+h1{
+    font-weight: 900;
+    font-size: 2.7rem;
+    
+}
+h2 {
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+h3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.i4th{
+display: flex;
+}
+.inp input{
+height: 3rem;
+width: 20rem;
+border-radius: 5px;
+margin-right: 0.5rem;
+background-color: rgba(27, 30, 32, 0.564);
+border-color:  rgba(27, 30, 32, 0.564);
+padding-left: 1rem;
+color: aliceblue;
+}
+.btn2 button{
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: red;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 5px;
+    border-color: red;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 36rem;
+    background-color:black;
+    
+   
+}
+.secondin{
+    margin-left: 11rem;
+}
+.secondin2{
+    margin-right: 11rem;
+}
+.imgtv{
+    background-image: url('tv.png');
+    background-size: cover;
+    height: 28rem;
+    width: 35rem;
+    
+}
+.imgcon{
+    margin-right: 11rem;
+}
+.imgmobile{
+    background-image: url('mobile.webp');
+    background-size: cover;
+    height: 27rem;
+    width: 35rem;
+}
+.imgcon{
+    margin-right: 11rem;
+}
+.imgcon2{
+    margin-left: 11rem;
+}
+.imgdevice{
+    background-image: url('device-pile-in.png');
+    background-size: cover;
+    height: 27rem;
+    width: 40rem;
+}
+.imgchild{
+    background-image: url('child.png');
+    background-size: cover;
+    height: 27rem;
+    width: 37rem;
+}
+.third{
+    height: 57rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2D2D2D;
+    width: 72rem;
+    height: 5.2rem;
+    margin-bottom: 0.65rem;
+    border: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right:1.5rem ;
+}
+.plus{
+    font-size: 3.5rem;
+    font-weight: 10;
+}
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 25rem;
+    color: rgb(187, 186, 186);
+    padding-left: 0rem;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+   margin-top: 5rem;
+   color: rgb(187, 186, 186);
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+   margin-top: 5rem;
+}
+.row3{
+    display: flex;
+    flex-direction: column;
+   margin-top: 5rem;
+}
+.row4{
+    display: flex;
+    flex-direction: column;
+   margin-top: 5rem;
+}
